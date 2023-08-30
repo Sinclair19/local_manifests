@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="githubgl" fetch="https://github.com/roberto-sartori-gl" revision="refs/heads/gl" />
+  <remote name="sinclair" fetch="https://github.com/Sinclair19" revision="refs/heads/gl" />
+  <remote name="githubglssh" fetch="ssh://git@github.com" />
+  <project path="device/oneplus/cheeseburger" name="4.14-device_oneplus_cheeseburger" revision="lineage-20-derp" remote="sinclair" />
+  <project path="device/oneplus/dumpling" name="4.14-device_oneplus_dumpling" revision="4.14/gl/derp" remote="sinclair" />
+  <project path="device/oneplus/msm8998-common" name="4.14-device_oneplus_msm8998_common" revision="lineage-20-derp" remote="sinclair" />
+  <project path="kernel/oneplus/prebuilt" name="4.14-kernel-oneplus-prebuilt" revision="master" clone-depth="1" remote="githubgl" />
+  <project path="vendor/qcom/opensource/display-commonsys-intf" name="4.14-vendor-qcom-opensource-commonsys-intf-display" revision="aosp/LA.UM.8.1.r1" remote="githubgl" />
+  <remove-project name="vendor_qcom_opensource_data-ipa-cfg-mgr" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="4.14-vendor-qcom-opensource-data-ipa-cfg-mgr" revision="msm8998_op/aosp/LA.UM.8.1.r1" remote="githubgl" />
+  <project path="vendor/oneplus/msm8998-common" name="roberto-sartori-gl/4.14-vendor_oneplus_msm8998-common" revision="2cd01921d4f24bd33ca77a230916eb0f992f6a9a" remote="githubglssh" />
+  <project path="vendor/oss/timekeep" name="4.14-timekeep" revision="mms8998_op/s-mr1" remote="githubgl" />
+  <project name="hardware_oneplus" path="hardware/oneplus" remote="derp-devices" revision="13" />
+</manifest>
